@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Ambulatory Care",
+    "description": "Phasellus at nunc orci. Donec ipsum metus, pharetr a quis nunc sit amet, maximus vehicula nibh.",
+    "src": "https://i.ibb.co/DRh5Bss/download.webp"
+  },
+  {
+    "id": 2,
+    "name": "Laboratory",
+    "description": "Phasellus at nunc orci. Donec ipsum metus, pharetr a quis nunc sit amet, maximus vehicula nibh.",
+    "src": "https://i.ibb.co/cFPjyW6/download.webp"
+  },
+  {
+    "id": 3,
+    "name": "Ambulance Service",
+    "description": "Phasellus at nunc orci. Donec ipsum metus, pharetr a quis nunc sit amet, maximus vehicula nibh.",
+    "src": "https://i.ibb.co/bRmr0Gk/Ambulance.webp"
+  },
+  {
+    "id": 4,
+    "name": "Radiology",
+    "description": "Phasellus at nunc orci. Donec ipsum metus, pharetr a quis nunc sit amet, maximus vehicula nibh.",
+    "src": "https://i.ibb.co/zbyS374/Radiology.webp"
+  },
+  {
+    "id": 5,
+    "name": "RadEmergency Careiology",
+    "description": "Phasellus at nunc orci. Donec ipsum metus, pharetr a quis nunc sit amet, maximus vehicula nibh.",
+    "src": "https://i.ibb.co/9wkrfrX/Emergency-Care.webp"
+  },
+  {
+    "id": 6,
+    "name": "Pharmacy",
+    "description": "Phasellus at nunc orci. Donec ipsum metus, pharetr a quis nunc sit amet, maximus vehicula nibh.",
+    "src": "https://i.ibb.co/Sck1f73/Pharmacy.webp"
+  }
+]
