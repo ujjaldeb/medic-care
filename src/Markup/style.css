@@ -1,0 +1,105 @@
+/* banner css */
+.single-hero-slide {
+    display: flex;
+    align-items: center;
+    background-image: url(images/hero.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.hero-slides-content h2 {
+    color: #fff;
+    font-size: 72px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.hero-slides-content h5 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.medica-btn.btn-2 {
+    color: #fff;
+    background-color: #2f88fd;
+    border-color: #2f88fd;
+}
+
+.medica-btn {
+    display: inline-block;
+    color: #fff;
+    background-color: transparent;
+    height: 60px;
+    padding: 0 30px;
+    line-height: 56px;
+    font-size: 14px;
+    min-width: 140px;
+    border: 2px solid #fff;
+    border-radius: 0;
+    font-weight: 600;
+}
+
+/* about us area css */
+
+.about-us-area {
+    padding: 80px 0;
+}
+
+/* services css */
+
+.medica-services-area {
+    background-image: url(images/servicesBg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+.gradient-background-overlay, .background-overlay {
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.gradient-background-overlay:after, .background-overlay:after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background: #243eff;
+    background: -webkit-linear-gradient(to right,#3de6fa,#243eff);
+    background: -webkit-linear-gradient(left,#3de6fa,#243eff);
+    background: linear-gradient(to right,#3de6fa,#243eff);
+    opacity: .8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+}
+
+/* footer css */
+
+footer {
+    padding: 20px 0 5px;
+}
+
+footer p, footer p a, footer nav a {
+    color: white;
+}
+
+footer nav a {
+    margin-left: 16px;
+}
+
+
+/* media query css */
+
+@media only screen and (max-width: 425px) {
+    .hero-slides-content h2 {
+        font-size: 60px;
+    }
+}

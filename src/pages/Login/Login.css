@@ -1,0 +1,19 @@
+.form-signin {
+    padding: 15px;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divider h5 {
+    margin: 12px 0px;
+    font-size: 12px;
+}
+/* Register */
+.exiting_account a {
+    text-decoration: none;
+}
+.exiting_account {
+    margin: 5px 0px;
+}

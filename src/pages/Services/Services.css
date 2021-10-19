@@ -1,0 +1,80 @@
+.medica-services-area {
+    padding-top: 80px;
+    position: relative;
+    z-index: 1;
+}
+
+.medica-services-area {
+    background: url('https://i.postimg.cc/QMDSppbM/servcies.webp');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gradient-background-overlay,
+.background-overlay {
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.gradient-background-overlay:after,
+.background-overlay:after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background: #243eff;
+    background: -webkit-linear-gradient(to right, #3de6fa, #243eff);
+    background: -webkit-linear-gradient(left, #3de6fa, #243eff);
+    background: linear-gradient(to right, #3de6fa, #243eff);
+    opacity: 0.8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+}
+
+.section_heading {
+    text-align: center;
+    margin-bottom: 80px;
+    position: relative;
+    z-index: 1;
+}
+
+.section_heading img {
+    margin-bottom: 10px;
+}
+
+.section_heading.white-heading h2 {
+    color: #fff;
+}
+
+.single-service-area {
+    margin-bottom: 80px;
+}
+
+.single-service-area img {
+    margin-bottom: 30px;
+}
+
+.single-service-area h5 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.single-service-area p {
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.single-servcie-btn {
+    color: #fff;
+    padding: 5px 15px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    margin-top: 15px;
+}

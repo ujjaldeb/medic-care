@@ -1,0 +1,64 @@
+.single-blog-area,
+.single-blog-area .post-thumb {
+    position: relative;
+    z-index: 1;
+}
+
+.medica-emergency-card {
+    padding: 50px 40px;
+    background-color: #38c3fb;
+    width: 100%;
+}
+
+.medica-catagories-card {
+    padding: 50px 40px;
+    width: 100%;
+}
+
+.latest-news-widget-area h5,
+.medica-catagories-card h5 {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.catagories-menu li a {
+    display: block;
+    color: #7f7e7e;
+    padding: 15px;
+    border-bottom: 1px solid #e3e3e3;
+    text-decoration: none;
+}
+
+.catagories-menu li a:hover,
+.catagories-menu li a:focus {
+    padding-left: 20px;
+    border-bottom: 1px solid #2f88fd;
+    color: #2f88fd;
+}
+
+.medica-emergency-card h5 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.post-content {
+    margin-top: 40px;
+}
+
+.post-content h4 {
+    font-weight: 600;
+}
+
+.post-meta p,
+.post-meta p a {
+    font-size: 12px;
+}
+
+.post-content>a,
+.post-meta p a {
+    color: #2f88fd;
+    text-decoration: none;
+}
+.medica-emergency-card p {
+    color: #fff;
+}

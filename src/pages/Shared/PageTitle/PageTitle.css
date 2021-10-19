@@ -1,0 +1,45 @@
+.breadcumb-area {
+    background: url('https://i.postimg.cc/W4p0njdB/page-titel.webp');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 255px !important;
+}
+
+.breadcumb-title {
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.breadcrumb {
+    padding: 0;
+    margin-bottom: 0;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.breadcrumb-item.active,
+.breadcrumb-item a,
+.breadcrumb-item {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+}
+
+.breadcrumb-item.active,
+.breadcrumb-item a,
+.breadcrumb-item {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+}
+
+.breadcrumb-item+.breadcrumb-item:before {
+    content: "|";
+    color: #fff;
+}
