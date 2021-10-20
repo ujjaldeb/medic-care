@@ -9,40 +9,44 @@ import Register from './pages/Register/Register';
 import PageNotFound from './pages/PageNotFound/PageNotFound';
 import Footer from './pages/Shared/Footer/Footer';
 import ServiceDetails from './pages/ServiceDetails/ServiceDetails';
+import AuthProvider from './context/AuthProvider';
+import ParivateRoute from './pages/ParivateRoute/ParivateRoute';
 
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Header></Header>
-        <Switch>
-          <Route exact path="/">
-            <Home></Home>
-          </Route>
-          <Route path="/home">
-            <Home></Home>
-          </Route>
-          <Route path="/news">
-            <News></News>
-          </Route>
-          <Route path="/appointment">
-            <Appointment></Appointment>
-          </Route>
-          <Route path="/login">
-            <Login></Login>
-          </Route>
-          <Route path="/register">
-            <Register></Register>
-          </Route>
-          <Route path="/service/:serviceId">
-            <ServiceDetails></ServiceDetails>
-          </Route>
-          <Route path="*">
-            <PageNotFound></PageNotFound>
-          </Route>
-        </Switch>
-        <Footer></Footer>
-      </Router>
+      <AuthProvider>
+        <Router>
+          <Header></Header>
+          <Switch>
+            <Route exact path="/">
+              <Home></Home>
+            </Route>
+            <Route path="/home">
+              <Home></Home>
+            </Route>
+            <ParivateRoute path="/news">
+              <News></News>
+            </ParivateRoute>
+            <ParivateRoute path="/appointment">
+              <Appointment></Appointment>
+            </ParivateRoute>
+            <Route path="/login">
+              <Login></Login>
+            </Route>
+            <Route path="/register">
+              <Register></Register>
+            </Route>
+            <ParivateRoute path="/service/:serviceId">
+              <ServiceDetails></ServiceDetails>
+            </ParivateRoute>
+            <Route path="*">
+              <PageNotFound></PageNotFound>
+            </Route>
+          </Switch>
+          <Footer></Footer>
+        </Router>
+      </AuthProvider>
     </div>
   );
 }

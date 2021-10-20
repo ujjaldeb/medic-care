@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Service = (props) => {
+    // creating variables with the help of destructuring
     const { id, name, description, src } = props.service;
     return (
         <div className="col-12 col-sm-6 col-lg-4">

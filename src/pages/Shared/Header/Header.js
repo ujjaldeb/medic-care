@@ -1,8 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import useAuth from '../../../hooks/useAuth';
 import './Header.css';
 
 const Header = () => {
+    const { user, logout } = useAuth();
     return (
         <header>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -24,12 +26,41 @@ const Header = () => {
                             <li className="nav-item">
                                 <Link className="nav-link" to="/appointment">Appointment</Link>
                             </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/login">Login</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/register">Register</Link>
-                            </li>
+
+                            {!user.email ? (
+                                <>
+                                    <li className="nav-item">
+                                        <Link to="/login" className="nav-link">
+                                            Login
+                                        </Link>
+                                    </li>
+                                    <li className="nav-item">
+                                        <Link to="/register" className="nav-link">
+                                            Register
+                                        </Link>
+                                    </li>
+                                </>
+                            ) : (
+                                <>
+                                    <li className="nav-item">
+                                        <button onClick={logout} className="nav-link">
+                                            LOGOUT
+                                        </button>
+                                    </li>
+                                    <li className="nav-item">
+                                        <span className="nav-link">
+                                            <img
+                                                src={user.photoURL}
+                                                alt="profile"
+                                                width="25px"
+                                                height="25px"
+                                            />
+                                            <span> {user.displayName}</span>
+                                        </span>
+                                    </li>
+                                </>
+                            )}
+
                         </ul>
                     </div>
                 </div>

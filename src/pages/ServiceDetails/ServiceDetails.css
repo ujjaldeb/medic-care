@@ -1,0 +1,16 @@
+.service-box {
+    height: 100vh;
+}
+
+.service-details {
+    border: 2px solid blue;
+    padding: 50px;
+    background-color: blue;
+}
+.service-details {
+    padding: 50px;
+    background: linear-gradient(to right, #3de6fa, #243eff);
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+}
