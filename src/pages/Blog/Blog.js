@@ -17,9 +17,7 @@ const Blog = () => {
                             <div className="post-content">
                                 <h4>New plastic surgery department from january ‘18</h4>
                                 <div className="post-meta mb-30 d-flex align-items-center">
-                                    <p className="author mb-0">Author:<Link to="#"> Loredana Papp</Link> |</p>
-                                    <p className="author mb-0">in<Link to="#"> Medicine Breacktrough</Link> |</p>
-                                    <p className="author mb-0"><Link to="#">3 Comments</Link></p>
+                                    <p className="author mb-0">Author:<Link to="#"> Loredana Papp</Link></p>
                                 </div>
                                 <p>Phasellus at nunc orci. Donec ipsum metus, pharetra quis nunc sit amet, maximus
                                     vehicula nibh. Praesent pulvinar porta elit, a commodo erat. Phasellus at nunc orci.

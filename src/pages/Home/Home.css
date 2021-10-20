@@ -1,6 +1,46 @@
 /* media query css */
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 426px) {
+    /* Home */
+    .single-hero-slide {
+        height: 550px;
+    }
+    
     .hero-slides-content h2 {
         font-size: 48px;
+        text-align: center;
+    }
+
+    .hero-slides-content h5 {
+        text-align: center;
+    }
+
+    .slide-btn-group {
+        text-align: center;
+    }
+
+    .medica-about-text h2, .medica-about-text p {
+        text-align: center;
+    }
+
+    .medica-about-text a {
+        display: block;
+    }
+
+    .medica-about-thumbnail img {
+        margin-top: 30px;
+    }
+
+    .slide-btn-group .btn-2 {
+        margin-top: 8px;
+    }
+
+    .footer-menu .list-unstyled {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* News */
+    .single-blog-area h4, .single-blog-area p {
+        text-align: center;
     }
 }

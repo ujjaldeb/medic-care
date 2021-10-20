@@ -31,7 +31,7 @@ const About = () => {
                     </div>
                     <div className="col-12 col-lg-5">
                         <div className="medica-about-thumbnail">
-                            <img src="https://i.postimg.cc/ncxjk0mB/doctor.webp" alt="" />
+                            <img className="img-fluid" src="https://i.postimg.cc/ncxjk0mB/doctor.webp" alt="" />
                         </div>
                     </div>
                 </div>
